@@ -34,8 +34,8 @@
 		});
 
 		sp.write('AT+CMGF=1\r');
- 		sp.write('AT+CMGS="+558899347065"\r');
-	 	sp.write('Teste eenvios multiplos por vez ' + new Date() + ' .');
+		// Formato do numero: +55DDDNUMERO
+ 		sp.write('AT+CMGS="+5588xxxxxxxx"\r');
+	 	sp.write('Teste de SMS enviado na data: ' + new Date() + ' .');
 	 	sp.write(new Buffer([0x1a]));
-
 	});
