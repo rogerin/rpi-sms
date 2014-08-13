@@ -1,0 +1,23 @@
+{
+  "name": "rpi-sms",
+  "version": "0.0.1",
+  "description": "Enviando SMS com RaspberryPI + Modem3G.",
+  "main": "app.js",
+  "dependencies": {
+    "serialport": "~1.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rogerin/rpi-sms.git"
+  },
+  "author": "Rogerio Alencar Filho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rogerin/rpi-sms/issues"
+  },
+  "homepage": "https://github.com/rogerin/rpi-sms"
+}
