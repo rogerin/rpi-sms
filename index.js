@@ -30,8 +30,8 @@ function SendSMS(deviceID, phoneNumber){
   		console.log("Close: " + a);
   	});
 
-  	sp.write('AT+CMGF=1\r');
-  	sp.write('AT+CMGS="'+phoneNumber+'"\r');
+    sp.write('AT+CMGF=1\r');
+    sp.write('AT+CMGS="'+phoneNumber+'"\r');
     sp.write('SMS sent on: ' + new Date() + ' .');
     sp.write(new Buffer([0x1a]));
 
