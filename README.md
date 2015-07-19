@@ -1,7 +1,14 @@
 rpi-sms
 =======
-Envio de SMS com Raspberry PI com um Modem 3G.
+Send SMS messages with RaspberryPI + 3G Modem.
 
-Galera preciso da ajuda de vocês para organizar! Não sei escrever textos nem criar a documentação. :)
+### Usage
 
-espero que ajude a todos.
+List devices:
+
+    ./bin/list-devices
+
+
+Send a message
+
+    ./bin/sms <device_id> <phone_number>
